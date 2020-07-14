@@ -1,0 +1,39 @@
+.outer-padding{
+  padding: 30px;
+}
+
+.head-content,h3{
+  color: #26C6DA;
+  margin-bottom: 10px;
+}
+
+.bottom-padding{
+  margin-bottom: 15px;
+}
+.top-padding{
+  margin-top: 15px;
+}
+
+.item{
+  min-height: 1rem;
+  border: solid 1px #26C6DA;
+  margin-bottom: 10px;
+}
+h3{
+  font-weight: bold;
+}
+
+.head-content, ion-label{
+  font-size: small;
+}
+  
+ion-button{
+  font-weight: bold;
+}
+
+.auth-form ion-grid,
+.auth-form ion-row {
+    height: 100%;
+    justify-content: center;
+    background-image: linear-gradient(white 10%, 30%, #ECEFF1 60%);
+}

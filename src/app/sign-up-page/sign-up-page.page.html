@@ -1,0 +1,45 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/" color="secondary"></ion-back-button>
+    </ion-buttons>
+    <ion-title color="secondary">
+      SignUpPage
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="auth-form">
+  <ion-grid>
+    <ion-row>
+      <ion-col align-self-center class="outer-padding">
+        <div class="ion-text-center head-content">
+          <h3>Create an Account</h3>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </div>
+
+      	<form>
+          <ion-label color="secondary" position="floating">Name</ion-label>
+			    <ion-item size="6" class="item">
+			      <ion-input type="text" class="border-box" required></ion-input>
+			    </ion-item>
+
+          <ion-label color="secondary" position="floating">Email</ion-label>
+			    <ion-item lines="full" class="item">
+			      <ion-input type="email" class="border-box" required></ion-input>
+			    </ion-item>
+
+          <ion-button type="submit" color="secondary" class="bottom-padding" shape="round" expand="block">Sign Up</ion-button>
+
+          <ion-label color="secondary" position="floating">Password</ion-label>
+          <ion-item lines="full">
+            <ion-input type="password" class="border-box" required></ion-input>
+          </ion-item>
+
+        <ion-button type="submit" class="top-padding" color="secondary" expand="block" shape="round" >Register</ion-button>
+			  </form>
+
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
